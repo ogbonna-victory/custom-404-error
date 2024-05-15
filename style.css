@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header{
+    font-size: 9.5em;
+    font-weight: bolder;
+    background-image: radial-gradient(circle, #350068, #ff6978, #350068);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-top: 150px;
+}
+.pnf{
+    font-weight: bold;
+    font-size: large;
+    margin-top: 5px;
+}
+.error-msg{
+    margin-top: 10px;
+    background-image: radial-gradient(circle, #350068, #ff6978, #350068);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.button{
+    background-color: #350068;
+    color: white;
+    height: 30px;
+    width: 170px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: small;
+}
+@media screen and (max-width: 600px) {
+    .header{
+        margin-top: 130px;
+        font-size: 5.5em;
+    }
+    .error-msg{
+        font-size: small;
+    }
+}
